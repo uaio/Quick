@@ -6,7 +6,7 @@ const fs = require('fs');
 export default {
   input: 'src/main.js',
   output: {
-    file: `dist/${name}.js`,
+    file: `dist/${name}.dev.js`,
     format: 'iife',
     name
   },
