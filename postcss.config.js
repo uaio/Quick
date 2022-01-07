@@ -1,6 +1,6 @@
-const autoprefixer = require('autoprefixer');
-const postcssNested = require('postcss-nested');
+const postcssPresetEnv = require("postcss-preset-env");
+const postcssNested = require("postcss-nested");
 
 module.exports = {
-  plugins: [autoprefixer, postcssNested]
+  plugins: [postcssPresetEnv, postcssNested]
 };
